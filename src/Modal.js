@@ -50,6 +50,9 @@ const CloseButton = styled.button`
   position: absolute;
   top: 0;
   right: 0;
+  border: none;
+  background: transparent;
+  padding: 10px;
 `;
 
 const Background = styled.div`
