@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 export default class Icon extends Component {
+  static defaultProps = {
+    color: 'black'
+  };
   render() {
     switch (this.props.name) {
       case 'close':
